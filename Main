@@ -1,0 +1,19 @@
+public class Main {
+    int CPI;
+    String name;
+    public void setCPI(int CPI)
+    {
+        this.CPI = CPI;
+    }
+    public int getCPI()
+    {
+        return CPI;
+    }
+
+    public static void main(String[] args) {
+        Main obj = new Main();
+        obj.setCPI(7);
+        int diggi = obj.getCPI();
+        System.out.println(diggi);
+    }
+}
